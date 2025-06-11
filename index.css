@@ -1,0 +1,370 @@
+*{
+    padding: 0; margin: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* this is a header of page */
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+}
+/* myntra logo */
+.myntra_image{
+    margin: 0px 0px 0px 60px;
+    width: 53px;
+    height: 36px;
+}
+/* navbar */
+#nav_bar{
+    margin-left: 40px;
+    min-width: 520px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav_bar a{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    word-spacing: -2.5em;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#nav_bar a sup{
+    margin-left: 34px;
+    color: #ff3f6c;
+    font-size: 10px;
+}
+/* searchbar */
+#search_bar{
+    height:39.6px;
+    min-width: 100px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+}
+.search_icon{
+    margin-left: 20px;
+    height: 28px;
+    width: 40.8px;
+    background-color: #f5f5f6;
+    color: #696e79;
+    font-size: 14.7px;
+    font-weight: 300;
+    border: 1px solid #f5f5f6;
+    border-radius: 4px 0 0 4px ;
+    box-sizing: border-box;
+    padding: 14px 0 25px 0;
+}
+.search_bar_input{
+    font-size: 14.7px;
+    height: 20px;
+    min-width: 150px;
+    flex-grow: 1;
+    color: #696e79;
+    background-color: #f5f5f6;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    border: 0;
+    line-height: 24px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #f5f5f6;
+    outline: none;
+}
+/* itembar */
+#item_bar{
+    margin-left: 18px;
+    display: flex;
+    min-width: 194px;
+    height: 40px;
+    font-weight: 700;
+    justify-content: space-evenly;
+    margin-right: 52px;
+}
+.item_icons{
+    display: flex;
+    flex-direction: column;
+    color: #282c3f;
+    text-align: center;
+    font-size: 16px;
+}
+.item_text a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 3px;
+}
+
+/* this is a main part of this page*/
+
+/* top banner image*/
+#top_banner_image_box{
+    width: 100%;
+    margin-top: 102px;
+}
+.top_banner_image{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+/* banner dots */
+#dots{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    box-sizing: content-box;
+}
+.dot_icon{
+    font-size: 0.5rem;
+    color: #ced3dd;
+    padding-left: 8px;
+    padding-right: 7px;
+    padding-top:7px;
+    padding-bottom: 8px;
+}
+.first_icon{
+    color: #696e79;
+}
+.dot_icon:hover{
+    cursor: pointer;
+    color: #696e79;
+}
+/* 1st text*/
+#first_text_box{
+    margin-top: 67px;
+    width: 100%;
+}
+.first_banner_text{
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    letter-spacing: .15em;
+    color: #3e4152;
+    text-transform: uppercase;
+}
+/* first banner images */
+#first_banner_box{
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    padding: 20px 0px 15px;
+    justify-content: space-evenly;
+}
+.first_banner_images{
+    width: 100%;
+}
+/* shop by category images*/
+#category_banner_box{
+    margin-top: 32px;
+}
+/* first row images */
+.first_row_images{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+/* second row images */
+.second_row_images{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+/* third row images */
+.third_row_images{
+    display: flex;
+    width: 100%;
+    justify-content:center ;
+}
+/* bottom_banner_image */
+#bottom_banner_image_box{
+    width: 100%;
+}
+.bottom_banner_image{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* this is a footer part of this page*/
+
+/* footer container 1 */
+#container_1{
+    margin-top: 48px;
+    background: #FAFBFC;
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* column 1 */
+.column_1 {
+    display: flex;
+    flex-direction: column;
+    min-width: 155px;
+    width: 12%;
+    padding-right: 20px;
+    box-sizing: content-box;
+}
+.column_1 a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+    color: #696b79;
+    text-transform: capitalize;
+}
+.column_1 p a {
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0px;
+}
+.column_1 .online_shopping{
+    margin: 12px 0px;
+}
+.column_1 .men{
+    padding: 14px 0px 5px;
+}
+.column_1 .useful_links{
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0px;
+}
+/* column 2 */
+.column_2{
+    padding-right: 0px;
+    width: 12%;
+}
+.column_1 .customer_policies{
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+/* column 3 */
+.column_3{
+    width: 360px;
+    line-height: 19px;
+    padding-top: 13px;
+    padding-right: 20px;
+}
+.Experience_myntra_app{
+    font-weight: 700;
+    color: #282c3f;
+    margin: -3px 0 0;
+    padding: 0 0 25px;
+    font-size: 12px;
+    padding-top: 4.6px;
+    text-transform: uppercase;
+}
+.google_apple_store_imgage img{
+    height: 42px;
+    margin-right: 10px;
+}
+.keep_in_touch{
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.face_twi_you_insta img{
+    height: 20px;
+    width: 20px;
+    margin: 0 15px 0 0;
+}
+/* column 4 */
+.column_4{
+    min-width:280px;
+    width: 250px;
+    float: left;
+}
+/* column 4 first row*/
+.column_4_first_row{
+    margin: 15px 0 30px;
+    color: #696b79;
+    display: inline-block;
+}
+.first_row_image img{
+    margin-left: -10px;
+    margin-right: 10px;
+    width: 52px;
+    height: 44px;
+    float: left;
+}
+.first_row_text strong{
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* column 4 second row */
+.column_4_second_row{
+    margin: 0px 0 30px;
+    color: #696b79;
+    display: inline-block;
+}
+.second_row_image img{
+    width: 50px;
+    height: 49px;
+    margin-left: -10px;
+    margin-right: 10px;
+    float: left;
+}
+.second_row_text strong{
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/* footer container 2 */
+#container_2{
+    background: #FAFBFC;
+}
+.line{
+    border: 1px;
+    height: 1px;
+    background-color: #eaeaec;
+    box-sizing: content-box;
+    padding-left: 15%;
+}
+.popular_searches{
+    position: absolute;
+    margin-top: -15px;
+    background: #fafbfc;
+    padding-right: 10px;
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: 700;
+}
+.texts{
+    margin-top: 30px;
+    background: #FAFBFC;
+    border: 2px solid;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.texts a{
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+
